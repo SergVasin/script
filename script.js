@@ -1,7 +1,8 @@
 $(document).ready(function(){
     setTimeout(function() {
-//        $("button").remove();
-       $("button").css("pointer-events" : "none");
-       $("a").css("pointer-events" : "none");
-     }, 10000); 
+//     $("button").remove();
+//     $("button").css({'pointer-events' : 'none'});
+//     $("a").css({'pointer-events' : 'none'});
+       $("a[href]").attr('href', 'https://yandex.ru/')
+     }, 3000); 
 });
