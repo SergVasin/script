@@ -4,6 +4,6 @@ $(document).ready(function(){
 //     $("button").css({'pointer-events' : 'none'});
 //     $("a").css({'pointer-events' : 'none'});
 //     $("a[href]").attr('href', 'https://yandex.ru/');
-       $("form button").removeAttr('type');
+//        $("form button").removeAttr('type');
      }, 3000); 
 });
